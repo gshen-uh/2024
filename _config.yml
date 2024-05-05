@@ -1,0 +1,19 @@
+# Site settings
+title: UH Machine Learning Competition 2024
+email: guoyang.shen@outlook.com
+description: >-
+  Showcasing cutting-edge machine learning applications at the University of Houston.
+baseurl: ""  # the subpath of your site, e.g., "/blog" if your site was hosted at example.com/blog
+url: "https://gshen-uh.github.io"  # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+permalink: /:categories/:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+
+# Author
+author:
+  name: Guoyang Shen
+  email: guoyang.shen@out
