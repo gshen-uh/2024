@@ -104,7 +104,7 @@
 					overlayOpacity: 0.85,
 					popupCloserText: '',
 					popupLoaderText: '',
-					selector: '.work-item a.image',
+					selector: '.work-item a.image:not(.external)', // Exclude links with class 'external'
 					usePopupCaption: true,
 					usePopupDefaultStyling: false,
 					usePopupEasyClose: false,
